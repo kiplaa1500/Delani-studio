@@ -1,0 +1,14 @@
+.image {
+    position: relative;
+    text-align: center;
+    color: #ffff;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    bottom: 50%;
+    font-size: 20px
+}
