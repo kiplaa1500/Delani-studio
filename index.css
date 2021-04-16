@@ -17,3 +17,13 @@
     text-align: center;
     font-size: 23px;
 }
+
+.service-image {
+    text-align: center;
+    font-size: 18px;
+}
+
+#services {
+    margin-top: -6cm;
+    color: #ffff;
+}
