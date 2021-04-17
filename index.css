@@ -23,7 +23,12 @@
     font-size: 18px;
 }
 
-#services {
+/* #services {
     margin-top: -6cm;
     color: #ffff;
+} */
+
+
+.what-we-do{
+    text-align: center;
 }
