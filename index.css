@@ -2,16 +2,23 @@
     position: relative;
     text-align: center;
     color: #ffff;
+    font-size: 20px;
+}
+.background{
+    background-image: url("./IP3/background/h_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%
 }
 
-.logo {
+/* .logo {
     position: absolute;
     top: 50%;
     left: 30%;
     right: 30%;
     bottom: 50%;
     font-size: 20px
-}
+} */
 
 .about-us{
     text-align: center;
