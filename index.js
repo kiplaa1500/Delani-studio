@@ -98,11 +98,11 @@ $(document).ready(function () {
 function alertSubmision() {
     let name = document.getElementById("Name").value;
     let email = document.getElementById("Email").value;
-    let message = document.getElementById("message").value;
+    let message = document.getElementById("Message").value;
 
     if (name === "" || email === "" || message === "") {
         alert("Please fill the form for us to be happy!!");
     } else {
         alert(name + " we have received your message. Thank you fro reaching out to us.");
-    }
+    };
 }
