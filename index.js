@@ -21,5 +21,68 @@ $(document).ready(function () {
     $("#show").click(function () {
         $("#products-management").show(700);
     });
-    preventDefault();
+});
+
+$(document).ready(function () {
+
+    $("#work1").mouseover(function () {
+        $("#works1-p").hide();
+        $("#works1-p").show();
+    }).mouseout(function () {
+        $("#works1-p").hide();
+    });
+});
+$(document).ready(function () {
+    $("#works2-p").hide();
+    $("#work2").mouseover(function () {
+        $("#works2-p").show();
+    }).mouseout(function () {
+        $("#works2-p").hide();
+    });
+});
+$(document).ready(function () {
+    $("#works3-p").hide();
+    $("#work3").mouseover(function () {
+        $("#works3-p").show()
+    }).mouseout(function () {
+        $("#works3-p").hide();
+    });
+});
+$(document).ready(function () {
+    $("#works4-p").hide();
+    $("#work4").mouseover(function () {
+        $("#works4-p").show();
+    }).mouseout(function () {
+        $("#works4-p").hide();
+    });
+});
+$(document).ready(function () {
+    $("#works5-p").hide();
+    $("#work5").mouseover(function () {
+        $("#works5-p").show();
+    }).mouseout(function () {
+        $("#works5-p").hide();
+    });
+});
+$(document).ready(function () {
+    $("#works6-p").hide();
+    $("#work6").mouseover(function () {
+        $("#works6-p").show();
+    }).mouseout(function () {
+        $("#works6-p").hide();
+    });
+
+    $("#work7").mouseover(function () {
+        $("#works7-p").hide();
+        $("#works7-p").show();
+    }).mouseout(function () {
+        $("#works7-p").hide();
+    });
+
+    $("#work8").mouseover(function () {
+        $("#works8-p").hide();
+        $("#works8-p").show();
+    }).mouseout(function () {
+        $("#works8-p").hide();
+    });
 })
