@@ -51,7 +51,7 @@
 }
 
 
-.email {
+#email-section {
     background-image: url("./IP3/background/c_image.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -61,4 +61,5 @@
 .email{
 
     display: flex;
+    justify-content:space-between;
 }
