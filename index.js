@@ -96,10 +96,7 @@ function alertSubmision() {
     if (name === "" || email === "") {
         alert("Please fill the form for us to be happy!!");
     }
-    else if (name === true) {
-        alert(" Thank you for contancting us");
-    }
-    else {
-        return false;
+    else{
+        alert( name + " We are glad you have reach unto us and thank you for contacting us");
     }
 }
