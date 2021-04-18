@@ -105,4 +105,8 @@ function alertSubmision() {
     } else {
         alert(name + " we have received your message. Thank you for reaching out to us.");
     };
+
+    let form = document.createElement("emails")[0];
+    form.reset();
+    return false;
 }
