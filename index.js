@@ -101,7 +101,7 @@ function alertSubmision() {
     let message = document.getElementById("Message").value;
 
     if (name === "" || email === "" || message === "") {
-        alert("Please fill the form for us to be happy!!");
+        alert("Please fill the form for so as to reach unto us!!");
     } else {
         alert(name + " we have received your message. Thank you for reaching out to us.");
     };
