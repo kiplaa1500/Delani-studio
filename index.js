@@ -24,9 +24,8 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-
+    $("#works1-p").hide();
     $("#work1").mouseover(function () {
-        $("#works1-p").hide();
         $("#works1-p").show();
     }).mouseout(function () {
         $("#works1-p").hide();
@@ -71,16 +70,18 @@ $(document).ready(function () {
     }).mouseout(function () {
         $("#works6-p").hide();
     });
-
+});
+$(document).ready(function () {
+    $("#works7-p").hide();
     $("#work7").mouseover(function () {
-        $("#works7-p").hide();
         $("#works7-p").show();
     }).mouseout(function () {
         $("#works7-p").hide();
     });
-
+});
+$(document).ready(function () {
+    $("#works8-p").hide();
     $("#work8").mouseover(function () {
-        $("#works8-p").hide();
         $("#works8-p").show();
     }).mouseout(function () {
         $("#works8-p").hide();
