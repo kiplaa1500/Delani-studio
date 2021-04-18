@@ -3,9 +3,10 @@
     text-align: center;
     color: #ffff;
     font-size: 20px;
-    
+
 }
-.background{
+
+.background {
     background-image: url("./IP3/background/h_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -21,7 +22,7 @@
     font-size: 20px;
 } */
 
-.about-us{
+.about-us {
     text-align: center;
     font-size: 23px;
 }
@@ -43,11 +44,11 @@
 } */
 
 
-.what-we-do{
+.what-we-do {
     text-align: center;
 }
 
-#Portfolio{
+#Portfolio {
     text-align: center;
 }
 
@@ -60,18 +61,74 @@
 }
 
 
-#contact{
-    color:white;
-    text-align:center;
+#contact {
+    color: white;
+    text-align: center;
 }
-.email{
+
+.email {
 
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     color: #ffffff;
-    
+
 }
 
-#footer{
+#footer {
     text-align: center;
+}
+
+#design>p {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#development>p {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#products-management>p {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/* .email .form-control{
+    background: rgb(0, 0, 0, );
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+#Name {
+    font-size:30px;
+    color: white;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0);
+}
+#Email {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0);
+}
+
+#Message {
+    color: white;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0);
+}
+
+#Message {
+    color: white;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0);
+}
+
+#get-name {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0);
 }
