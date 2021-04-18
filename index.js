@@ -97,6 +97,6 @@ function alertSubmision() {
         alert("Please fill the form for us to be happy!!");
     }
     else{
-        alert( name + " We are glad you have reach unto us and thank you for contacting us");
+        alert(name + " we have received your message. Thank you fro reaching out to us.");
     }
 }
