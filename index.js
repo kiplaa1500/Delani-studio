@@ -1,26 +1,32 @@
 $(document).ready(function () {
     $("#hide1").hide();
-    $("#design").click(function () {
-        $("#hide1").toggle(700);
+    $("#design-img").click(function () {
+        $("#design-img").toggle('1000').hide('1000');
+        $("#hide1").show("1000");
     });
-    $("#show").click(function () {
-        $("#hide1").show(700);
+    $("#hide1").click(function () {
+        $("#hide1").toggle('1500');
+        $("#design-img").toggle('1500');
     });
 
-    $("#hide2").hide();
-    $("#development").click(function () {
-        $("#hide2").toggle(700);
-    });
-    $("#show").click(function () {
-        $("#development").show(700);
-    });
-    $("#hide3").hide();
-    $("#products-management").click(function () {
-        $("#hide3").toggle(500);
-    });
-    $("#show").click(function () {
-        $("#products-management").show(700);
-    });
+$("#hide2").hide();
+$("#dev-img").click(function () {
+    $("#dev-img").toggle('1000').hide('1000');
+    $("#hide2").show("1000");
+});
+$("#hide2").click(function () {
+    $("#hide2").toggle('1500');
+    $("#dev-img").toggle('1500');
+});
+$("#hide3").hide();
+$("#pro-img").click(function () {
+    $("#pro-img").toggle('1000').hide('1000');
+    $("#hide3").show("1000");
+});
+$("#hide3").click(function () {
+    $("#hide3").toggle('1500');
+    $("#pro-img").toggle('1500');
+});
 });
 
 $(document).ready(function () {
@@ -96,8 +102,7 @@ function alertSubmision() {
 
     if (name === "" || email === "" || message === "") {
         alert("Please fill the form for us to be happy!!");
-    }
-    else{
+    } else {
         alert(name + " we have received your message. Thank you fro reaching out to us.");
     }
 }
