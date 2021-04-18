@@ -87,3 +87,19 @@ $(document).ready(function () {
         $("#works8-p").hide();
     });
 })
+
+//email set up
+function alertSubmision() {
+    let name = document.getElementById("Name").value;
+    let email = document.getElementById("Email").value;
+
+    if (name === "" || email === "") {
+        alert("Please fill the form for us to be happy!!");
+    }
+    else if (name === true) {
+        alert(" Thank you for contancting us");
+    }
+    else {
+        return false;
+    }
+}
