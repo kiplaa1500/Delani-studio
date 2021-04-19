@@ -6,6 +6,21 @@
 
 }
 
+h1 {
+    font-family: 'DM Serif Display';
+    font-size: 22px;
+}
+
+h2 {
+    font-family: 'Sofia';
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Vidaloka';
+    font-size: 22px;
+}
+
 .background {
     background-image: url("./IP3/background/h_img.jpg");
     background-repeat: no-repeat;
@@ -103,11 +118,12 @@
 } */
 
 #Name {
-    font-size:30px;
+    font-size: 30px;
     color: white;
     font-weight: 900;
     background: rgba(0, 0, 0, 0);
 }
+
 #Email {
     font-size: 30px;
     color: white;
