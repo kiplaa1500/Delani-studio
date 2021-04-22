@@ -28,7 +28,7 @@ $("#hide3").click(function () {
     $("#pro-img").toggle('1500');
 });
 });
-
+// 
 $(document).ready(function () {
     $("#works1-p").hide();
     $("#work1").mouseover(function () {
@@ -106,7 +106,7 @@ function alertSubmision() {
         alert(name + " we have received your message. Thank you for reaching out to us.");
     };
 
-    let form = document.createElement("emails")[0];
+    let form = document.createElement("mc-embedded-subscribe-form")[0];
     form.reset();
     return false;
 }

@@ -170,3 +170,26 @@ p {
     margin: 30px;
 
 }
+
+#works1-p,
+#works2-p,
+#works3-p,
+#works4-p,
+#works5-p,
+#works6-p,
+#works7-p,
+#works8-p {
+    padding: 20px;
+    font-size: 30px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    display: none;
+    padding-top: 20%;
+    position: absolute;
+    background-color: rgba(250, 245, 245, 0.456);
+    font-weight: normal;
+    color: #ffd700;
+    text-align: center;
+}
