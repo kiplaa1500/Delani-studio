@@ -96,9 +96,9 @@ $(document).ready(function () {
 
 //email set up
 function alertSubmision() {
-    let name = document.getElementById("Name").value;
-    let email = document.getElementById("Email").value;
-    let message = document.getElementById("Message").value;
+    let name = document.getElementById("mce-NAME").value;
+    let email = document.getElementById("mce-EMAIL").value;
+    let message = document.getElementById("mce-MSG").value;
 
     if (name === "" || email === "" || message === "") {
         alert("Please fill the form for so as to reach unto us!!");

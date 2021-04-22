@@ -117,27 +117,27 @@ p {
     background: rgba(0, 0, 0, 0.5);
 } */
 
-#Name {
+#mce-NAME {
     font-size: 30px;
     color: white;
     font-weight: 900;
     background: rgba(0, 0, 0, 0);
 }
 
-#Email {
+#mce-EMAIL {
     font-size: 30px;
     color: white;
     font-weight: 900;
     background: rgba(0, 0, 0, 0);
 }
 
-#Message {
+/* #Message {
     color: white;
     font-weight: 900;
     background: rgba(0, 0, 0, 0);
-}
+} */
 
-#Message {
+#mce-MSG {
     color: white;
     font-weight: 900;
     background: rgba(0, 0, 0, 0);
@@ -148,4 +148,25 @@ p {
     font-size: 20px;
     font-weight: 900;
     background: rgba(0, 0, 0, 0);
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+#name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mce-responses {
+    color: white;
+    font: size 20px;
+}
+
+.row {
+    margin: 30px;
+
 }
